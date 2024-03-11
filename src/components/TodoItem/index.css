@@ -1,0 +1,36 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6273a4;
+  padding: 10px;  
+  margin: 10px 0;  
+  color: white;
+  border-radius: 5px;
+  width: 100%;  
+  box-sizing: border-box;  
+}
+  
+.span-tag {
+  flex-grow: 1;  
+  white-space: nowrap;  
+  overflow: hidden;  
+  text-overflow: ellipsis;  
+}
+.button-edit{
+  background-color:"transparent";
+  color:"white";
+  border: "none";
+  margin-right:15px;
+}
+.button-delete{
+  background-color: "transparent";
+  color: "red";
+  border: "none";
+}
+ 
+@media screen and (max-width: 600px) {
+  .task-form-container {
+      width: 90%;  
+  }
+}
