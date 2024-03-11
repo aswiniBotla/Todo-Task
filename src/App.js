@@ -1,11 +1,16 @@
-import React from 'react'
-import TodoApp from './components/TodoApp/index.js'
-const App=() =>{
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Products from "./components/Products";
+import ProductDetails from "./components/ProductDetails";
+
+function App() {
   return (
-    <div>
-   <TodoApp/>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<Products />} />
+        <Route exact path="/products/:id" element={<ProductDetails />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

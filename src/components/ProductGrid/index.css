@@ -1,0 +1,61 @@
+ 
+.product-image {
+  height: 150px;
+  max-width: 100%;
+}
+
+.each-product {
+  min-height: 250px;
+  max-width: 100%;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.each-product-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.paragraph {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  color:blueviolet;
+}
+
+.prize {
+  margin: 1px;
+}
+
+ 
+@media screen and (max-width: 768px) {
+  .each-product {
+    min-height: 200px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .prize {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .each-product {
+    min-height: 180px;
+  }
+
+  .paragraph {
+    font-size: 13px;
+     
+  }
+
+  .prize {
+    font-size: 13px;
+  }
+}

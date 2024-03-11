@@ -1,0 +1,38 @@
+ 
+.exact-product {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exact-product-image-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exact-image {
+  height: auto;
+  width: 100%;
+  max-width: 300px;  
+}
+
+.prize {
+  padding-left: 30px;
+
+}
+
+.extact-title {
+  font-weight: bold;
+  color:rgb(75, 116, 178);
+}
+
+.paragraph {
+  margin: 0;
+  padding: 5px;
+}
